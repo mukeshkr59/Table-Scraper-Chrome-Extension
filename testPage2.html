@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Tables Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f4f6f8;
+        }
+        h2 {
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background-color: #ffffff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sample Data Tables</h1>
+
+    <!-- Table 1: Users -->
+    <h2>Users</h2>
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alice Johnson</td>
+            <td>alice@example.com</td>
+            <td>Admin</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Bob Smith</td>
+            <td>bob@example.com</td>
+            <td>Editor</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Carol Lee</td>
+            <td>carol@example.com</td>
+            <td>Viewer</td>
+        </tr>
+    </table>
+
+    <!-- Table 2: Products  -->
+    <h2>Products</h2>
+    <table>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Price ($)</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Laptop</td>
+            <td>Electronics</td>
+            <td>899.99</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Office Chair</td>
+            <td>Furniture</td>
+            <td>149.50</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Notebook Pack</td>
+            <td>Stationery</td>
+            <td>12.99</td>
+        </tr>
+    </table>
+
+    <!-- Table 3: Orders -->
+    <h2>Orders</h2>
+    <table>
+        <tr>
+            <th>Order ID</th>
+            <th>User</th>
+            <th>Product</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>5001</td>
+            <td>Alice Johnson</td>
+            <td>Laptop</td>
+            <td>Shipped</td>
+        </tr>
+        <tr>
+            <td>5002</td>
+            <td>Bob Smith</td>
+            <td>Office Chair</td>
+            <td>Processing</td>
+        </tr>
+        <tr>
+            <td>5003</td>
+            <td>Carol Lee</td>
+            <td>Notebook Pack</td>
+            <td>Delivered</td>
+        </tr>
+    </table>
+
+    <!-- Table 4: Weekly Schedule -->
+    <h2>Weekly Schedule</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Task</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Team Meeting</td>
+            <td>Alice Johnson</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Content Review</td>
+            <td>Bob Smith</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Product Launch Prep</td>
+            <td>Carol Lee</td>
+            <td>In Progress</td>
+        </tr>
+    </table>
+
+</body>
+</html>

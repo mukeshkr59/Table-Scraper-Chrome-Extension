@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Table Data Scraper",
+  "version": "1.0.0",
+  "description": "It will scrape HTML tables from webpages and download as CSV",
+  "permissions": ["activeTab", "downloads", "scripting"],
+  "action": {
+    "default_icon": {
+      "128": "logo.png"
+    },
+    "default_title": "Scrape Table Data"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "logo.png"
+  }
+}
