@@ -8,4 +8,4 @@ In background.js I have these functions
 2. Now to extract the table data we have function "scrapeTableData" along with a function to convert table data to CSV file.
 3. finally, we create a blob with CSV content because it is not possible to download string data directly from the browser.
 4. so, we have to create a temporary object (url) to download file, then we can remove this from memory.
-5. It will detect all the table from tab and put them in single csv file to download.
+5. It will detect all the table from tab and put them in single csv file with (3 row gap in the tables) to download.
